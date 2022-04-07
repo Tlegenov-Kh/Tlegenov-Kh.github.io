@@ -1,4 +1,3 @@
-window.location.href = "https://spiritpromotion.me";
 AOS.init();
 window.addEventListener('DOMContentLoaded',()=>{
     // // Loader------------------------>
