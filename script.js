@@ -1,5 +1,5 @@
 AOS.init();
-window.location.assign('https://spiritpromotion.me')
+console.log(window.location)
 window.addEventListener('DOMContentLoaded',()=>{
     // // Loader------------------------>
     const body = document.querySelector('body');
