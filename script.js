@@ -1,4 +1,7 @@
 AOS.init();
+if(document.location.href === "http://spiritpromotion.me"){
+			document.location.href = "http://spiritpromoion.me"
+		}
 window.addEventListener('DOMContentLoaded',()=>{
     // // Loader------------------------>
     const body = document.querySelector('body');
