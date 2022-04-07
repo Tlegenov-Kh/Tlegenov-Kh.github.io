@@ -1,5 +1,4 @@
 AOS.init();
-console.log(window.location)
 window.addEventListener('DOMContentLoaded',()=>{
     // // Loader------------------------>
     const body = document.querySelector('body');
