@@ -1,6 +1,6 @@
 AOS.init();
 window.addEventListener('DOMContentLoaded',()=>{
-    console.log(window.location)
+    console.log(window.location.href = "https://spiritpromotion.me")
     // // Loader------------------------>
     const body = document.querySelector('body');
     const loader = document.querySelector('.loader');
