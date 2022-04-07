@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Убрать форматирование ссылки у номера телефона на iOS -->
+	<meta name="format-detection" content="telephone=no">
+	<!-- Box-icons -->
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+	<!-- Site-icon -->
+	<link rel="icon" href="img/suitcase.png">
+	<!-- AOS animations -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Swiper Slider Styles -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<!-- Styles -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Spirit</title>
+</head>
+<body >
+	<!-- Loader -->
+	<div class="loader">
+		<div class="lds-ripple"><div></div><div></div></div>
+	</div>
+	<!-- Fixed Scroll-up btn -->
+	<a href="#" class="fixed-btn">
+		<img src="img/up-arrow-alt-regular-24.png" alt="arrow-up">
+	</a>
+
+	<!-- Header -->
+	<header>
+		<div class="container">
+			<a href="#" class="logo">
+				<img src="img/logo.png" alt="logo">
+				<h1 class="logo_title">Spirit</h1>
+			</a>
+			<ul class="nav-bar">
+				<li class="nav-item home"><a href="#">Home<div class="home_bottom bt"></div></a></li>
+				<li class="nav-item about"><a href="#about">About<div class="about_bottom bt"></div></a></li>
+				<li class="nav-item servise"><a href="#service">Service<div class="service_bottom bt"></div></a></li>
+				<li class="nav-item portfolio"><a href="#comment">Portfolio<div class="portfolio_bottom bt"></div></a></li>
+				<li class="nav-item portfolio"><a href="#portfolio">Prices<div class="portfolio_bottom bt"></div></a></li>
+				<li class="nav-item portfolio"><a href="#blog">Blog<div class="portfolio_bottom bt"></div></a></li>
+			</ul>
+			<div class="search-bar">
+				<img src="https://quomodosoft.com/html/glint/assets/img/icon/hamburger.svg" alt="" class="bar_btn">
+			</div>
+			<div class="mobile-menu_btn"><i class="fa fa-bars"></i></div>
+		</div>
+	</header>
+	<!-- Mobile drop-right menu header -->
+	<section class="mobile-nav">
+		<div class="mobile-icon_block">
+			<a href="https://discord.gg/zdjkGpQqPT" class="mobile-icon bordered">Order Service Now!</a>
+			<div class="mobile-icon mobile_close">Close</div>
+		</div>
+		<ul class="mobile-nav_list">
+			<li class="mobile-item"><a href="#home">Home</a></li>
+			<li class="mobile-item"><a href="#about">About</a></li>
+			<li class="mobile-item"><a href="#service">Service</a></li>
+			<li class="mobile-item"><a href="#comment">Portfolio</a></li>
+			<li class="mobile-item"><a href="#portfolio">Prices</a></li>
+			<li class="mobile-item"><a href="#blog">Blog</a></li>
+		</ul>
+	</section>
+	<!-- Modal window -->
+	<section class="modal-window">
+		<div class="modal-wrapper">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-logo">
+						<img src="img/logo.png" alt="">
+					</div>
+					<div class="modal-exit_btn">
+						<i class="fa fa-times"></i>
+					</div>
+				</div>
+				<div class="modal-text">Tired of waiting for people who want to buy your <span class="point">NFT</span> to show up, looking at an empty server? Seeing several chat messages from your server?
+					Then you have arrived at the address.<span class="point">Spirit Promotion Company</span> provides developing NFT projects with a flow of new people in the NFT field. <span class="point">Contact us</span>  and we will delight you with new <span class="point">democratic prices</span> , <span class="point">discounts</span> , <span class="point">quality work</span>  and a <span class="point">good community</span>  </div>
+				<a href="https://discord.com/invite/zdjkGpQqPT" class="modal-btn_block">
+					Promote Your Project Now!
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- Main-page -->
+	<section class="main-page" id="home">
+		<div class="container">
+			<div class="main-slider_wrapper">
+				<div class="main-slider_info">
+					<div class="main-title"> Let the <span class="pointed">world</span> know about your <span class="pointed">existence</span></div>
+					<div class="main-description">Our promotion company is the best , safe and qualified way to make people know about your nft</div>
+					<a href="https://discord.gg/zdjkGpQqPT" target="_blank" class="main_btn">Visit Our Discord
+						<div class="next-icon"><img src="img/next.png" alt="next"></div>
+					</a>
+				</div>
+				<div class="main-slider_img">
+					<img src="img/author1.png" alt="main-slider_img1">
+				</div>
+			</div>
+			<div class="main-slider_wrapper">
+				<div class="main-slider_info info_second">
+					<div class="main-title"> Let the <span class="pointed">world</span> know about your <span class="pointed">existence</span></div>
+					<div class="main-description">Our promotion company is the best , safe and qualified way to make people know about your NFT</div>
+					<a href="https://discord.gg/zdjkGpQqPT" target="_blank" class="main_btn">Visit Our Discord
+						<div class="next-icon"><img src="img/next.png" alt="next"></div>
+					</a>
+				</div>
+				<div class="main-slider_img img_second">
+					<img src="img/author2.png" alt="main-slider_img2">
+				</div>
+			</div>
+		<div class="main-page_btn_block">
+			<button class="main-page_btn">01</button>
+			<button class="main-page_btn">02</button>
+		</div>
+	</section>
+	<section class="player" id="about">
+		<div class="container">
+			<div class="player-img_wrapper"
+				data-aos="fade-zoom-in"
+				data-aos-easing="ease-in-back"
+				data-aos-delay="700"
+				data-aos-offset="200">
+				<div class="player-img_front"><img src="img/about1.png" alt=""></div>
+			</div>
+			<div class="player-info_block"
+			data-aos="fade-zoom-in"
+			data-aos-easing="ease-in-back"
+			data-aos-delay="1300"
+			data-aos-offset="200"
+			>
+				<div class="player-title toped">We believe we can bring <span class="point">your server</span> all needed to <span class="point">world</span> to know about <span class="point">your NFT</span></div>
+				<div class="player-description toped">You can easily rely on us as the team has several skilled individuals who are really good at their jobs and may be we are  that missing part of your server that is on its way of fame</div>
+				<a href="https://discord.gg/zdjkGpQqPT" class="player-btn toped">Visit Us!
+					<div class="next-icon"><img src="img/next.png" alt="next"></div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- Service -->
+	<section class="service" id="service">
+		<div class="container">
+			<div class="service-title_block">
+				<div class="service-title">
+					<div class="service-title_back">ADVANTAGES</div>
+					<div class="service-title_front">
+						<p class="pointed">How we do</p>
+						<p>Our<span class="pointed">Advantages</span></p>
+					</div>
+				</div>
+				<div class="service-description">Our company got the opportunity to cooperate with other projects as well.
+					Not surprisingly they loved our work which is getting even better</div>
+			</div>
+			<div class="service-blocks">
+				<div class="service-block service_first " data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2500"><img src="img/service1.svg" alt="" class="service_img toped"><div class="service-block_title toped">TEAM</div><div class="service-block_descr toped">Our team is <span class="balded">highly motivated</span> and creative that will <span class="balded">save</span> your <span class="balded">money</span> and <span class="balded">time</span> and always online and ready to contact with you.For the beginning our friendly team promotes the servers by shilling</div></div>
+				<div class="service-block service_second" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2500"><img src="img/service2.svg" alt="" class="service_img toped"><div class="service-block_title toped">WORK PROCESS</div><div class="service-block_descr toped">We promote your server in a huge base which consists <span class="balded">3000-5000 base of servers</span> and besides that we invite only <span class="balded">REAL interested and engaged members</span> without bots and fake accounts.</div></div>
+				<div class="service-block service_third " data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2500"><img src="img/service3.svg" alt="" class="service_img toped"><div class="service-block_title toped">YOUR RECEIVEMENT</div><div class="service-block_descr toped">As a result you receive a fast and qualified work and also good community.</div></div>
+			</div>
+		</div>
+	</section>
+	<!-- Comment -->
+	<section class="comment" id="comment">
+		<div class="container">
+			<div class="service-title_block">
+				<div class="service-title">
+					<div class="service-title_back">TESTS</div>
+					<div class="service-title_front">
+						<p class="pointed">TESTIMONALS</p>
+						<p>Happy clients to <span class="pointed">SAYS</span></p>
+					</div>
+				</div>
+				<div class="service-description">Here you can see the reviews of our customers that are satisfied with our work.We are waiting you here!</div>
+			</div>
+			<div class="comment-slider">
+				<div class="comment-slide">
+					<img class="comment_face" src="img/ape_poo.png" alt="">
+					<div class="comment_info">
+						<div class="comment-icon"><img src="https://quomodosoft.com/html/glint/assets/img/icon/quote.png" alt=""></div>
+						<div class="comment_descr">Good nd quality service. Satisfied & pleased with the service. Recommanded!!</div>
+						<a href="https://discord.gg/YuewArZ4yR" class="comment_place">Ape Poo Club</a>
+					</div>
+				</div>
+				<div class="comment-slide">
+					<img class="comment_face" src="img/off_the_block_nft.png" alt="">
+					<div class="comment_info">
+						<div class="comment-icon"><img src="https://quomodosoft.com/html/glint/assets/img/icon/quote.png" alt=""></div>
+						<div class="comment_descr">Great Service, amazing team with outstanding customer service</div>
+						<a href="https://discord.com/invite/Pyx2eKaMQt" class="comment_place">Off The Block NFT</a>
+					</div>
+				</div>
+				<div class="comment-slide">
+					<img class="comment_face" src="img/pixel_babes.png" alt="">
+					<div class="comment_info">
+						<div class="comment-icon"><img src="https://quomodosoft.com/html/glint/assets/img/icon/quote.png" alt=""></div>
+						<div class="comment_descr">Amazing team! Been working with them for months, always do a great job and have great communication</div>
+						<a href="https://discord.gg/pixelbabes " class="comment_place">Pixel Babes</a>
+					</div>
+				</div>
+				<div class="comment-slide">
+					<img class="comment_face" src="img/carbon_vault.png" alt="">
+					<div class="comment_info">
+						<div class="comment-icon"><img src="https://quomodosoft.com/html/glint/assets/img/icon/quote.png" alt=""></div>
+						<div class="comment_descr">Really quality stuff and timely. Very pleased with their work and highly recommended. </div>
+						<a href="https://discord.gg/QJZjNrt8 " class="comment_place">Carbon Vault NFT</a>
+					</div>
+				</div>
+				<div class="comment-slide">
+					<img class="comment_face" src="img/intree_cleb.png" alt="">
+					<div class="comment_info">
+						<div class="comment-icon"><img src="https://quomodosoft.com/html/glint/assets/img/icon/quote.png" alt=""></div>
+						<div class="comment_descr">Amazing work! I appreciate you guyz, Thanks for your co-operation!! </div>
+						<a href="https://discord.gg/9ZCxhkk6HZ" class="comment_place">Intree Club</a>
+					</div>
+				</div>
+				<div class="comment-slide">
+					<img class="comment_face" src="img/aquaheads.png" alt="">
+					<div class="comment_info">
+						<div class="comment-icon"><img src="https://quomodosoft.com/html/glint/assets/img/icon/quote.png" alt=""></div>
+						<div class="comment_descr">Good job, done fast enough! They also respond quickly, we will definitely work more in the future! </div>
+						<a href="https://discord.gg/YVR9zHmTrh" class="comment_place">AquaHeads</a>
+					</div>
+				</div>
+				<div class="comment-slide">
+					<img class="comment_face" src="img/debonair_dragons.png" alt="">
+					<div class="comment_info">
+						<div class="comment-icon"><img src="https://quomodosoft.com/html/glint/assets/img/icon/quote.png" alt=""></div>
+						<div class="comment_descr">2 Orders so far, have been pretty great. Definitely plan on continuing ❤️ </div>
+						<a href="https://discord.gg/WkcDBDbY" class="comment_place">Debonair Dragons</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Work -->
+	<section class="work" id="portfolio">
+		<div class="container">
+			<div class="work-title_block">
+				<div class="work-title">
+					<div class="work-title_back">Pricement</div>
+					<div class="work-title_front">
+						<p class="pointed">Prices</p>
+						<p>Our <span class="pointed">Prices</span> and <span class="pointed">Services</span></p>
+					</div>
+				</div>
+				<div class="work-description">Our democratic prices for services are justified by the quality and duration of work</div>
+			</div>
+			<div class="work-place_block">
+				<div class="work-card hovered_work_1" data-aos="fade-up" data-aos-duration="2500" data-aos-anchor-placement="top-bottom">
+					<span class="work-card_border"></span>
+					<div class="work-card_title">CONFIGURING</div>
+					<img src="./img/config.png" alt="service_img">
+					<p class="work-card_descr">CREATING AND CONFIGURING</p>
+					<p class="work-card_price">399$</p>
+				</div>
+				<div class="work-card hovered_work_2" data-aos="fade-up" data-aos-duration="2500" data-aos-anchor-placement="top-bottom">
+					<span class="work-card_border"></span>
+					<div class="work-card_title">SUPPORTING</div>
+					<img src="./img/support.png" alt="service_img">
+					<p class="work-card_descr">SUPPORTING AND MODERATING</p>
+					<p class="work-card_price">49$</p>
+				</div>
+				<div class="work-card hovered_work_3" data-aos="fade-up" data-aos-duration="2500" data-aos-anchor-placement="top-bottom">
+					<span class="work-card_border"></span>
+					<div class="work-card_title">INVITING</div>
+					<img src="./img/invite.png" alt="service_img">
+					<p class="work-card_descr">
+						<span id="32">INVITING</span>
+						<span id="31">USERS</span>
+					</p>
+					<p class="work-card_price">0.99$/per 1</p>
+				</div>
+				<div class="work-card hovered_work_4" data-aos="fade-up" data-aos-duration="2500" data-aos-anchor-placement="top-bottom">
+					<span class="work-card_border"></span>
+					<div class="work-card_title">E-PROMO</div>
+					<img src="./img/elite.png" alt="service_img">
+					<p class="work-card_descr">
+						<span id="32">ELITE</span>
+						<span id="31">PROMO</span>
+					</p>
+					<p class="work-card_price">30$</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Blog -->
+	<section class="blog service" id="blog">
+		<div class="container">
+			<div class="service-title_block">
+				<div class="service-title">
+					<div class="service-title_back">blogs</div>
+					<div class="service-title_front">
+						<p class="pointed">Recent new Desk</p>
+						<p>Lastest News & <span class="pointed">blogs</span></p>
+					</div>
+				</div>
+				<div class="service-description">Out Hot Announcements.Stay up to date with the latest news from our company and don't miss out on great deals</div>
+			</div>
+			<div class="blog-slider">
+				<div class="blog-slide">
+					<div class="blog-img"><img src="img/spirit.jpg" alt=""></div>
+					<div class="blog-info">
+						<div class="blog-date">March 16, 	2022</div>
+						<div class="blog-title">Foundation...</div>
+						<div class="blog-descr">Hello World!
+							We are a team of promoters that promotes NFT servers by providing our partners/consumers with real people without bots and fake accounts. Trusting us you will reach the moon, we will fulfill your order quickly. In addition to the promotion, we have additional services. You can find the price list and additional functions here: </div>
+						<a href="https://discord.gg/zdjkGpQqPT" class="blog-btn toped"><img src="img/right-arrow-alt-regular-24.png" alt="arrow"> Read More</a>
+					</div>
+				</div>
+				<div class="blog-slide">
+					<div class="blog-img"><img src="./img/sale.jpg" alt=""></div>
+					<div class="blog-info">
+						<div class="blog-date">March 27, 2022</div>
+						<div class="blog-title">Invite Prices Sale!</div>
+						<div class="blog-descr">We have decided to do some special discounts for everyone,no exceptions.
+							Just 0.79$ per invite should impress you, shouldn't it?
+							Yeah,yeah you can use this moment wisely and order right now unless it is gone
+							Hurry up, be the first clients to order more for cheap price</div>
+						<a href="https://discord.gg/zdjkGpQqPT" class="blog-btn toped"><img src="img/right-arrow-alt-regular-24.png" alt="arrow"> Read More</a>
+					</div>
+				</div>
+				<div class="blog-slide">
+					<div class="blog-img"><img src="img/spirit.jpg" alt=""></div>
+					<div class="blog-info">
+						<div class="blog-date">April 1, 2022</div>
+						<div class="blog-title">New Services!</div>
+						<div class="blog-descr">We have an offer to you two unique channels 
+							👑║ᴇʟɪᴛᴇ-ᴘʀᴏᴍᴏ and 
+							💎║ʙᴏᴏsᴛ-sʜɪʟʟ. Don't miss the opportunity to get acquainted with them because they can be very interesting and useful for you and for your server</div>
+						<a href="https://discord.gg/zdjkGpQqPT" class="blog-btn toped"><img src="img/right-arrow-alt-regular-24.png" alt="arrow"> Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Register -->
+	<section class="reg">
+		<div class="container">
+			<div class="pointed">Suggestions</div>
+			<div class="reg-descr toped">Tell us more about your suggestions for the site, company or job <p style="color: #08d665; margin-left: 13px;">suggestions!	</p> </div>
+			<div class="reg-sign toped">
+				<a href="https://discord.gg/zdjkGpQqPT" class="player-btn">Write To Us in Discord
+					<div class="next-icon"><img src="img/next.png" alt="next"></div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="footer-slider">
+				<div class="footer-slide"><img src="img/pixel_babes_text.png" alt=""></div>				
+				<div class="footer-slide"><img src="img/off_the_block_nft_text.png" alt=""></div>
+				<div class="footer-slide"><img src="img/carbon_vault_text.png" alt=""></div>
+				<div class="footer-slide"><img src="img/ape_poo_text.png" alt=""></div>
+				<div class="footer-slide"><img src="img/intree_cleb_text.png" alt=""></div>
+				<div class="footer-slide"><img src="img/debonair_dragons_text.png" alt=""></div>
+				<div class="footer-slide"><img src="img/aquaheads_text.png" alt=""></div>
+			</div>
+			<div class="footer-text">
+				MADE © 2022 BY  <pre> </pre><a href="https://www.instagram.com/lolman_nnnn" class="pointed">LOLMAN</a><pre> </pre>  ALL RIGHT RESERVED
+			</div>
+		</div>
+	</footer>
+	<!-- FontAwesome -->
+	<script src="https://kit.fontawesome.com/513c17d5b7.js" crossorigin="anonymous"></script>
+	<!-- AOS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- Slick Slider -->
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<!-- scripts -->
+	<script src="script.js"></script>
+</body>
+</html>
