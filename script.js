@@ -1,6 +1,6 @@
+window.location.href = "https://spiritpromotion.me";
 AOS.init();
 window.addEventListener('DOMContentLoaded',()=>{
-    window.location.href = "https://spiritpromotion.me";
     // // Loader------------------------>
     const body = document.querySelector('body');
     const loader = document.querySelector('.loader');
