@@ -1,6 +1,6 @@
 AOS.init();
 if(document.location.href === "http://spiritpromotion.me"){
-			document.location.href = "http://spiritpromoion.me"
+			document.location.href = "https://spiritpromoion.me"
 		}
 window.addEventListener('DOMContentLoaded',()=>{
     // // Loader------------------------>
