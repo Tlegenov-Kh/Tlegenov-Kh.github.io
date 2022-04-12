@@ -8,13 +8,17 @@
 
 html{
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body{
 	color: var(--dark-color);
 	height: 100%;
-	width: 100%;
+	width: 100vw;
 	overflow-x: hidden;
+	-ms-overflow-x: hidden;
+	-moz-overflow-x: hidden;
+	-webkit-overflow-x: hidden;
 	font-family: 'Inconsolata',monospace !important;
 }
 .hide-overflow{
